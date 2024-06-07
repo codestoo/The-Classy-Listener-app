@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="myContainer">
       <Navthing />
-     
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/classical" element={<Classical />} />
